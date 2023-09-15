@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor:pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 234, 238);
+}
+#container{
+    width: 30%;
+    height: fit-content;
+    background-color:rgb(229, 234, 238);
+    box-shadow:5px 15px 18px rgba(71, 70, 70, 0.9);
+    border-top: 1px solid rgb(58, 54, 54 ,.3);
+    border-left: 1px solid rgb(58, 54, 54 ,.3);
+    border-radius: 20px;
+}
+form{
+    margin:20px
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(54, 49, 49);
+    letter-spacing: 2px;
+    text-shadow: 1px 3px 3px rgb(68, 66, 66,.3);
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+
+}
+label{
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 3px 3px rgb(68, 66, 66,.3);
+    margin-top: 15px;
+}
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(13, 13, 13,0.6);
+    margin-top: 20px;
+    color:rgb(16, 15, 15) ;
+    text-shadow: 1px 3px 3px rgb(68, 66, 66,.3);
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(52, 48, 48);
+    color: rgb(219, 219, 203);
+    border-radius: 50px;
+    text-shadow: 1px 3px 3px rgb(68, 66, 66,.3);
+    margin-top: 30px;
+    font-size: 15px;
+}
+.click01{
+    margin-top: 20px;
+}
+a{
+    text-decoration-line: none;
+    background-color:  rgb(52, 48, 48);
+    padding: 10px;
+    border-radius: 50px;
+    color:rgb(219, 219, 203) ;
+    text-shadow: 1px 3px 3px rgb(68, 66, 66,.3);
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.click:hover{
+    background-color: rgb(164, 156, 156);
+    color: black;
+
+}
+span{
+    color:blue;
+}
+.hi{
+    display: flex;
+    flex-direction: column;
+}
+.log{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+#mess{
+    text-align:center;
+    margin-top: 10px;
+    color:black;
+
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ,shrink-to-fit=no">
+    <title>homepage</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <div class="hi">
+<h5>{{msg}}</h5>
+<h1>Hi !  <span>{{session['id']}}</span> , Welcome to My World</h1>
+<a href="{{url_for('logout')}}" class="click01 click log">Logout</a>
+</div>
+</body>
+</html>
